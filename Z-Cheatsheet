@@ -1,0 +1,22 @@
+setup the  migration tables, throw the column name
+
+create model, pass in fillable, 
+
+indicate relationship in model
+
+run migration
+//php artisan migrate
+
+create user
+//php artisan make:filament-user
+
+create resource, 
+//php artisan make:filament-resource Customer --generate --view
+
+
+bring in view template, 
+
+create a layout for the app
+
+create controller 
+//php artisan make:controller PostController --resource --model=Post
